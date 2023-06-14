@@ -1,6 +1,8 @@
 ﻿// Challenge 1
 bool amProgrammer = true;
+Console.WriteLine(amProgrammer);
 double Age = 27.9;
+Console.WriteLine(Age);
 List<string> Names = new List<string>();
 Names.Add("Monica");
 Dictionary<string, string> MyDictionary = new Dictionary<string, string>();
@@ -8,6 +10,7 @@ MyDictionary.Add("Hello", "0");
 MyDictionary.Add("Hi there", "0");
 // This is a tricky one! Hint: look up what a char is in C#
 string MyName = "MyName";
+Console.WriteLine(MyName);
 // Challenge 2
 List<int> Numbers = new List<int>() { 2, 3, 6, 7, 1, 5 };
 for (int i = (Numbers.Count - 1); i >= 0; i--)
@@ -32,6 +35,7 @@ for (int num = 0; num < EvenMoreNumbers.Count; num++)
 // Challenge 5
 // What can we learn from this error message?
 string MyString = "superduberawesome";
+Console.WriteLine(MyString);
 MyString = "superduperawesome";
 // Challenge 6
 // Hint: some bugs don't come with error messages
